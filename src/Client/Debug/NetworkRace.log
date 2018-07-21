@@ -1,12 +1,11 @@
 ﻿  b2dcar.cpp
-c:\users\alex\documents\github\winsock-cars\src\client\b2dcar.h(3): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+c:\users\alex\documents\github\winsock-cars\src\client\box2d\box2d.h(34): fatal error C1083: Cannot open include file: 'Box2D/Common/b2Settings.h': No such file or directory
   b2dtire.cpp
-c:\users\alex\documents\github\winsock-cars\src\client\b2dtire.h(3): fatal error C1083: Cannot open include file: 'Box2D\Box2D.h': No such file or directory
+c:\users\alex\documents\github\winsock-cars\src\client\box2d\box2d.h(34): fatal error C1083: Cannot open include file: 'Box2D/Common/b2Settings.h': No such file or directory
   gamecar.cpp
-c:\users\alex\documents\github\winsock-cars\src\client\gamecar.h(6): fatal error C1083: Cannot open include file: 'Box2D/Box2D.h': No such file or directory
+c:\users\alex\documents\github\winsock-cars\src\client\box2d\box2d.h(34): fatal error C1083: Cannot open include file: 'Box2D/Common/b2Settings.h': No such file or directory
   main.cpp
-c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(3): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+c:\users\alex\documents\github\winsock-cars\src\client\box2d\box2d.h(34): fatal error C1083: Cannot open include file: 'Box2D/Common/b2Settings.h': No such file or directory
   networkcar.cpp
-c:\users\alex\documents\github\winsock-cars\src\client\networkcar.h(4): fatal error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-  utils.cpp
+c:\users\alex\documents\github\winsock-cars\src\client\box2d\box2d.h(34): fatal error C1083: Cannot open include file: 'Box2D/Common/b2Settings.h': No such file or directory
   Generating Code...
