@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkRaceClient", "NetworkRace\NetworkRace.vcxproj", "{DDB892F4-0E65-4F5C-9F2F-6534FA8F02F3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkRaceClient", "Client\NetworkRace.vcxproj", "{DDB892F4-0E65-4F5C-9F2F-6534FA8F02F3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkRaceServer", "NetworkRaceSever\NetworkRaceSever.vcxproj", "{6C38F721-C125-4AE8-801D-7522E384AA99}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetworkRaceServer", "Server\NetworkRaceSever.vcxproj", "{6C38F721-C125-4AE8-801D-7522E384AA99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
