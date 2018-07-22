@@ -1,6 +1,6 @@
 // Box2D Tire class taken from iforce2d.net
 
-#include "Box2D\Box2D.h"
+#include <Box2D\Box2D.h>
 
 class TDTire {
 public:

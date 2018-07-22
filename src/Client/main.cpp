@@ -1,7 +1,7 @@
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
 
 #include <SFML/Graphics.hpp>
-#include "Box2D/Box2D.h"
+#include <Box2D/Box2D.h>
 #include "utils.h"
 #include <WinSock2.h>
 #include "gamecar.h"

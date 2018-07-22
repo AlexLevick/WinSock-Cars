@@ -26,10 +26,10 @@ GameCar::GameCar(b2World* world_, sf::Color colour_)
 		{
 			b2PolygonShape* polygonShape = (b2PolygonShape*)fixture->GetShape();
 
-			car_gfx_.setPointCount(polygonShape->GetVertexCount());
-			for (int i = 0; i < polygonShape->GetVertexCount(); i++)
+			car_gfx_.setPointCount(polygonShape->m_count);
+			for (int i = 0; i < polygonShape->m_count; i++)
 			{
-				car_gfx_.setPoint(i, sf::Vector2f(BtoP(polygonShape->GetVertex(i).x), BtoP(polygonShape->GetVertex(i).y)));
+				car_gfx_.setPoint(i, sf::Vector2f(BtoP(polygonShape->m_vertices[i].x), BtoP(polygonShape->m_vertices[i].y)));
 			}
 		}
 	}

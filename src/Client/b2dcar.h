@@ -1,6 +1,6 @@
 // Box2D Car class taken from iforce2d.net
 
-#include "Box2D/Box2D.h"
+#include <Box2D\Box2D.h>
 #include "b2dtire.h"
 #include <vector>
 
