@@ -1,0 +1,54 @@
+﻿  b2dcar.cpp
+c:\users\alex\documents\github\winsock-cars\src\client\b2dcar.cpp(17): warning C4305: 'argument': truncation from 'double' to 'float32'
+c:\users\alex\documents\github\winsock-cars\src\client\b2dcar.cpp(20): warning C4305: 'argument': truncation from 'double' to 'float32'
+c:\users\alex\documents\github\winsock-cars\src\client\b2dcar.cpp(81): warning C4018: '<': signed/unsigned mismatch
+c:\users\alex\documents\github\winsock-cars\src\client\b2dcar.cpp(83): warning C4018: '<': signed/unsigned mismatch
+  b2dtire.cpp
+  gamecar.cpp
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(20): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(43): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(51): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(40): warning C4101: 'height': unreferenced local variable
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(40): warning C4101: 'width': unreferenced local variable
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(65): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(67): warning C4018: '<': signed/unsigned mismatch
+c:\users\alex\documents\github\winsock-cars\src\client\gamecar.cpp(70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(109): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(114): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(117): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(118): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(119): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(120): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(121): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(122): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(274): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(281): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(306): warning C4018: '<': signed/unsigned mismatch
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(313): warning C4018: '<': signed/unsigned mismatch
+c:\users\alex\documents\github\winsock-cars\src\client\main.cpp(399): warning C4018: '<': signed/unsigned mismatch
+  networkcar.cpp
+c:\users\alex\documents\github\winsock-cars\src\client\networkcar.cpp(13): warning C4018: '<': signed/unsigned mismatch
+c:\users\alex\documents\github\winsock-cars\src\client\networkcar.cpp(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\alex\documents\github\winsock-cars\src\client\networkcar.cpp(77): warning C4018: '<': signed/unsigned mismatch
+  utils.cpp
+b2dcar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall b2PolygonShape::ComputeMass(struct b2MassData *,float)const " (?ComputeMass@b2PolygonShape@@UBEXPAUb2MassData@@M@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall b2PolygonShape::ComputeAABB(struct b2AABB *,struct b2Transform const &,int)const " (?ComputeAABB@b2PolygonShape@@UBEXPAUb2AABB@@ABUb2Transform@@H@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall b2PolygonShape::RayCast(struct b2RayCastOutput *,struct b2RayCastInput const &,struct b2Transform const &,int)const " (?RayCast@b2PolygonShape@@UBE_NPAUb2RayCastOutput@@ABUb2RayCastInput@@ABUb2Transform@@H@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall b2PolygonShape::TestPoint(struct b2Transform const &,struct b2Vec2 const &)const " (?TestPoint@b2PolygonShape@@UBE_NABUb2Transform@@ABUb2Vec2@@@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: void __thiscall b2PolygonShape::Set(struct b2Vec2 const *,int)" (?Set@b2PolygonShape@@QAEXPBUb2Vec2@@H@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall b2PolygonShape::GetChildCount(void)const " (?GetChildCount@b2PolygonShape@@UBEHXZ)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: virtual class b2Shape * __thiscall b2PolygonShape::Clone(class b2BlockAllocator *)const " (?Clone@b2PolygonShape@@UBEPAVb2Shape@@PAVb2BlockAllocator@@@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: class b2Fixture * __thiscall b2Body::CreateFixture(class b2Shape const *,float)" (?CreateFixture@b2Body@@QAEPAVb2Fixture@@PBVb2Shape@@M@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: void __thiscall b2RevoluteJoint::SetLimits(float,float)" (?SetLimits@b2RevoluteJoint@@QAEXMM@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: float __thiscall b2RevoluteJoint::GetJointAngle(void)const " (?GetJointAngle@b2RevoluteJoint@@QBEMXZ)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: class b2Joint * __thiscall b2World::CreateJoint(struct b2JointDef const *)" (?CreateJoint@b2World@@QAEPAVb2Joint@@PBUb2JointDef@@@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: void __thiscall b2World::DestroyBody(class b2Body *)" (?DestroyBody@b2World@@QAEXPAVb2Body@@@Z)
+b2dcar.obj : error LNK2001: unresolved external symbol "public: class b2Body * __thiscall b2World::CreateBody(struct b2BodyDef const *)" (?CreateBody@b2World@@QAEPAVb2Body@@PBUb2BodyDef@@@Z)
+b2dtire.obj : error LNK2001: unresolved external symbol "public: void __thiscall b2PolygonShape::SetAsBox(float,float)" (?SetAsBox@b2PolygonShape@@QAEXMM@Z)
+gamecar.obj : error LNK2001: unresolved external symbol "public: void __thiscall b2Body::SetTransform(struct b2Vec2 const &,float)" (?SetTransform@b2Body@@QAEXABUb2Vec2@@M@Z)
+main.obj : error LNK2001: unresolved external symbol "public: class b2Fixture * __thiscall b2Body::CreateFixture(struct b2FixtureDef const *)" (?CreateFixture@b2Body@@QAEPAVb2Fixture@@PBUb2FixtureDef@@@Z)
+main.obj : error LNK2001: unresolved external symbol "public: void __thiscall b2World::Step(float,int,int)" (?Step@b2World@@QAEXMHH@Z)
+main.obj : error LNK2001: unresolved external symbol "public: __thiscall b2World::b2World(struct b2Vec2 const &)" (??0b2World@@QAE@ABUb2Vec2@@@Z)
+C:\Users\Alex\Documents\GitHub\WinSock-Cars\src\Release\Client.exe : fatal error LNK1120: 18 unresolved externals
