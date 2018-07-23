@@ -1,0 +1,6 @@
+﻿  main.cpp
+  utils.cpp
+  Generating code
+c:\users\alex\documents\github\winsock-cars\src\server\main.cpp(177): warning C4715: 'MessageSend' : not all control paths return a value
+  Finished generating code
+  NetworkRaceSever.vcxproj -> C:\Users\Alex\Documents\GitHub\WinSock-Cars\src\Release\Server.exe
